@@ -8,7 +8,7 @@
 const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
 
 const prodListRef = document.querySelector('#ingredients');
-console.log(prodListRef);
+// console.log(prodListRef);
 
 const prodList = ingredients.map(ingredient => {
   const prodItem = document.createElement('li');
